@@ -37,7 +37,6 @@ header
 header ul
 {
     padding:10px;
-    
     font-size:20px;
     height:40px;
 }
@@ -51,19 +50,57 @@ header ul li
     width:200px;
     border-radius: 25px;
     text-align:center;
-   
-  
 }
-section
+main
 {
-    display:inline-block;
-    width:200px;
     background:wheat;
-    height:900px;
+
+}
+main section 
+{
+    
+    display:inline-block;
+    min-width:20px;    
+    max-width:200px;
+    max-height:900px;
+    min-height:900px;
     margin:10px;
     margin-top:110px;
-    padding: 10px;
+    padding:10px;
     border-radius: 25px;
     text-align:center;
+}
   
+main section p 
+{
+  
+}
+footer
+{
+    background:rgb(255, 152, 56);
+    height:100px;
+    bottom: 0;
+    position:fixed;
+    width:1400px;
+}
+
+footer section h1
+{
+    background:rgb(31, 241, 31);
+    width: 77px;
+    margin-top:10px;
+    top:0px;
+
+}
+footer ul li
+{
+    font-size:20px;
+    padding:-10px;
+    margin: -4px;
+    
+}
+video
+{
+    position:right;
+    margin-top:0px;
 }
