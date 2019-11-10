@@ -18,9 +18,9 @@ header
     right:0px;
 }
  
-{
+
    
-}
+
  div span
 {
     color:rgb(253, 237, 16);
@@ -71,10 +71,6 @@ main section
     text-align:center;
 }
   
-main section p 
-{
-  
-}
 footer
 {
     background:rgb(255, 152, 56);
@@ -102,5 +98,5 @@ footer ul li
 video
 {
     position:right;
-    margin-top:0px;
+    
 }
