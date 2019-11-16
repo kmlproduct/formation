@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body
+{
+
+    background:rgb(228, 225, 225);
+
+}
+.clearfix 
+    {
+        clear: both;
+    }
+
+header
+{
+    background:rebeccapurple;
+    height:70px;
+    width:1349PX;PX;
+    position: fixed;
+    
+}
+header h1
+{
+    text-align:center;
+    display:inline;
+    margin:0 0 0 400px;
+    
+}
+ header span
+{
+    background:rgb(240, 13, 13);
+ 
+    margin: 0px 0px 0px 20px;
+    
+    
+}
+/*start navigation*/
+nav 
+{
+   background:rgb(248, 146, 146);
+   font-size: 50px;
+   
+   
+}
+nav ul
+{
+    padding:50px 0 0 0;
+    text-align: center;
+    
+    
+}
+nav ul li 
+{
+    display:inline-block;
+    margin:0px 0px 0px 20PX;
+   
+}
+nav ul li:after {
+    content:" |";
+    
+}
+nav ul li:last-child:after{
+    content:""
+}
+/*end navigation*/
+.hed {
+    background:green;
+    position: relative;
+    width:250px;
+    text-align:center;
+    height:30px;
+    display:  inline-block;
+    
+}
+/*start articles*/
+article{
+    width:70%;
+    float:left;
+    display:inline-block;
+    padding:30px;
+
+    
+   
+}
+article .hed
+{
+    text-align:center;
+    
+    
+}
+article section
+{
+   margin-top: 10px;
+   
+   
+}
+/*end articles*/
+/*start footer*/
+footer 
+{
+    background:rebeccapurple;
+    padding:10px;
+    height:70px;
+}
+footer span 
+{
+    background:rgb(156, 250, 68);
+    margin:10px 0 0 400px;
+    
+    
+}
+/*end footer*/
+aside
+{
+    float:right;
+    width:30%;
+    text-align:center;
+    
+}
+aside section 
+{
+    background:rgb(45, 231, 238);
+    margin:10px;
+    padding:10px;
+    height:300px;
+}
+aside section h2 span
+{
+    background:rgb(45, 76, 247);
+    margin:0
+    
+}
+aside section p
+{
+    border:3px;
+}
