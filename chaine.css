@@ -17,12 +17,22 @@ body
     }
 
 header
+
 {
     background:rebeccapurple;
     height:70px;
     width:1349PX;PX;
     position: fixed;
     
+}
+header img
+{
+    float:right;
+    margin:10px;
+    height:50px;
+    width:45px;
+    border-radius: 50%;
+
 }
 header h1
 {
@@ -108,13 +118,17 @@ footer
     background:rebeccapurple;
     padding:10px;
     height:70px;
+    
 }
 footer span 
 {
     background:rgb(156, 250, 68);
-    margin:10px 0 0 400px;
-    
-    
+    float: left;  
+}
+footer ul li span
+{
+    float: left;
+    width:200px;
 }
 /*end footer*/
 /*start saidebar*/
