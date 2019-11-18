@@ -32,8 +32,8 @@ header img
     height:50px;
     width:45px;
     border-radius: 50%;
-
 }
+ 
 header h1
 {
     background:rgb(247, 131, 237);
@@ -86,30 +86,42 @@ nav ul li:last-child:after{
     width:250px;
     text-align:center;
     height:30px;
-    display:  inline-block;
+    
     
 }
 /*start articles*/
 article{
     width:70%;
-    float:left;
-    display:inline-block;
+    float: left;
+    width:300px;
     padding:30px;
-
+    display:  inline-block;
     
-   
+    
 }
-article .hed
+article.hed
 {
     text-align:center;
-    
-    
 }
-article section
+  article section p
 {
    margin-top: 10px;
-   
-   
+   margin:10px;
+   width:250px;
+  height:300px;
+  text-overflow: ellipsis;
+    overflow: hidden;
+    background: yellowgreen;
+    border: 1px solid;
+    box-shadow: 10px 10px 0 yellow;
+    padding: 10px;
+  
+}
+  article section 
+{
+    word-wrap:break-word;
+    width:200px;
+    display:inline-block;
 }
 /*end articles*/
 /*start footer*/
@@ -118,6 +130,7 @@ footer
     background:rebeccapurple;
     padding:10px;
     height:70px;
+    
     
 }
 footer span 
