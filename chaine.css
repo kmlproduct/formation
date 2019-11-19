@@ -9,6 +9,7 @@ body
 {
 
     background:rgb(228, 225, 225);
+    
 
 }
 .clearfix 
@@ -21,8 +22,8 @@ header
 {
     background:rgb(253, 8, 8);
     height:70px;
-    width:1349PX;PX;
-    position: fixed;
+    width:1349PX;
+    position:fixed;
     
 }
 header img
@@ -47,7 +48,7 @@ header h1
 header h1:hover
 {
     -webkit-transform: translatex(40px) scale(10px) rotate(10deg);
-    transform: translatex(40px,40px) scale(10px) rotate(10deg);
+    -webkit-transform: translatex(40px,40px) scale(10px) rotate(10deg);
     background:yellow;
   
     
@@ -102,7 +103,7 @@ body{
 .hed:hover
 {
     -webkit-transform:translatex(40px); 
-    transform:translatex(40px)rotatey(30deg) ;
+    -webkit-transform:translatex(40px)rotatey(30deg) ;
     
     background:yellow;
 }
@@ -137,8 +138,8 @@ article.hed
 article section p:hover
 {
     -webkit-transform:translatex(40px); 
-    transform:translatex(40px)rotatez(30deg) ;
-    transform:;
+    -webkit-transform:translatex(40px)rotatey(30deg) ;
+    -webkit-transform:scale3d(4 3 10);
     background:yellow;
 }
   article section 
@@ -154,29 +155,23 @@ footer
     background:rebeccapurple;
     padding:10px;
     height:90px;
-    
-    
-}
-footer span 
-{
-    
     display:inline-block;
-    padding:5px;
-    
 }
-
 footer span.foot
 {
     display:inline-block;
     width:200px;
     background:unset;
     padding:5px;
+    display:inline-block;
 }
 footer ul 
 {
     background:yellow;
     height:70px
     padding:5px;
+    display:inline-block;
+    width: 1900px;
 }
 /*end footer*/
 /*start saidebar*/
@@ -207,5 +202,53 @@ aside section p
     border:3px;
 }
 /*end sidebar*/
-h2 
-{}
+.proch
+{
+    background:yellowgreen;
+    height:400px;
+    width:300px;
+    text-align:center;
+    border-radius:20px 0 20px 0;
+    box-shadow:10px 10px 3px chartreuse;
+    
+}
+.proch p
+{
+    background:rebeccapurple;
+    height:100px;
+    width:200px;
+    text:red;
+    text-align:center;
+    box-shadow:10px 10px 3px chartreuse;
+    
+}
+.proch p
+{
+   transition:all .5S ease-in-out
+}
+.proch p:hover
+{
+    -webkit-transform: scale(4, 4) rotatey(30deg) translate(100px, 0px)
+}
+.proch img
+{
+    margin:10px;
+    padding:10px;
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+}
+
+
+.proch
+{
+    perspective:600px;
+}
+.proch img
+{
+   transition:all .5S ease-in-out
+}
+.proch img:hover
+{
+    -webkit-transform: scale(8, 8) rotatey(30deg) translate(100px, 0px) 
+}
