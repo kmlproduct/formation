@@ -19,7 +19,7 @@ body
 header
 
 {
-    background:rebeccapurple;
+    background:rgb(253, 8, 8);
     height:70px;
     width:1349PX;PX;
     position: fixed;
@@ -32,6 +32,7 @@ header img
     height:50px;
     width:45px;
     border-radius: 50%;
+    
 }
  
 header h1
@@ -43,14 +44,22 @@ header h1
     border-radius:0 10px 0 10px;
     
 }
+header h1:hover
+{
+    -webkit-transform: translatex(40px) scale(10px) rotate(10deg);
+    transform: translatex(40px,40px) scale(10px) rotate(10deg);
+    background:yellow;
+  
+    
+}
  header span
 {
     background:rgb(240, 13, 13);
  border-radius:5px;
     margin: 0px 0px 0px 20px;
-    
-    
+
 }
+ 
 /*start navigation*/
 nav 
 {
@@ -86,8 +95,16 @@ nav ul li:last-child:after{
     width:250px;
     text-align:center;
     height:30px;
+}
+body{
+    perspective:600px;
+}
+.hed:hover
+{
+    -webkit-transform:translatex(40px); 
+    transform:translatex(40px)rotatey(30deg) ;
     
-    
+    background:yellow;
 }
 /*start articles*/
 article{
@@ -129,19 +146,30 @@ footer
 {
     background:rebeccapurple;
     padding:10px;
-    height:70px;
+    height:90px;
     
     
 }
 footer span 
 {
-    background:rgb(156, 250, 68);
-    float: left;  
+    
+    display:inline-block;
+    padding:5px;
+    
 }
-footer ul li span
+
+footer span.foot
 {
-    float: left;
+    display:inline-block;
     width:200px;
+    background:unset;
+    padding:5px;
+}
+footer ul 
+{
+    background:yellow;
+    height:70px
+    padding:5px;
 }
 /*end footer*/
 /*start saidebar*/
@@ -172,3 +200,5 @@ aside section p
     border:3px;
 }
 /*end sidebar*/
+h2 
+{}
